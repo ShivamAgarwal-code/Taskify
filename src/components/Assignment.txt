@@ -1,0 +1,22 @@
+For user to solve this assignment using Boilerplate,
+first he have to go to settings at bottom-left corner then go to Configure user snippets
+You’ll see a dropdown at the top of a list of various JSON files.
+Click on react.json
+Step 2: Adding the react code to the JSON file:
+
+Remove all the code from this file and write down the code given below.
+// Write this code in the cpp.json file
+{
+	"react snippets":
+	{
+		"prefix" : "boilerplate",
+				"body" : [
+					"import React, { useEffect, useRef, useState } from 'react';",
+					"import { Todo } from '../modal';",
+					"import {AiFillEdit,AiFillDelete} from 'react-icons/ai'",
+					"import {MdDone} from 'react-icons/md'",
+
+				],
+							"description" : "to produce the main snippet for react"
+	}
+}
